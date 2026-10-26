@@ -1,7 +1,7 @@
 name: Auto Commit 17
 on:
   schedule:
-    - cron: "59 */5 * * *"
+    - cron: '14 0,4,8,12,16,20 * * *'
   workflow_dispatch:
 permissions:
   contents: write
